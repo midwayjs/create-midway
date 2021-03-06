@@ -1,0 +1,34 @@
+{
+  "name": "create-midway",
+  "version": "1.0.1",
+  "description": "npm init midway",
+  "main": "index.js",
+  "bin": {
+    "create-midway": "bin/create-midway.js"
+  },
+  "keywords": [
+    "midway",
+    "bin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@midwayjs/cli-plugin-add": "^1.2.49",
+    "@midwayjs/command-core": "^1.2.49",
+    "minimist": "^1.2.5"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "files": [
+    "bin",
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "echosoar <82163514@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/midwayjs/midway.git"
+  }
+}
