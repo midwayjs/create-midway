@@ -1,6 +1,6 @@
 {
   "name": "create-midway",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "npm init midway",
   "main": "index.js",
   "bin": {
