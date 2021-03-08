@@ -3,7 +3,7 @@ const { CommandCore } = require('@midwayjs/command-core');
 const { AddPlugin } = require('@midwayjs/cli-plugin-add');
 const cli = async argv => {
   const core = new CommandCore({
-    commands: ['new'],
+    commands: ['new', ...argv._.slice(1)],
     options: argv || {},
     log: {
       log: console.log,
