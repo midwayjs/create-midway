@@ -1,10 +1,10 @@
 {
   "name": "create-midway",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "npm init midway",
   "main": "index.js",
   "bin": {
-    "create-midway": "bin/create-midway.js"
+    "create-midway": "dist/index.js"
   },
   "keywords": [
     "midway",
@@ -16,13 +16,18 @@
     "@midwayjs/command-core": "^1.2.50",
     "minimist": "^1.2.5"
   },
+  "devDependencies": {
+    "@vercel/ncc": "^0.28.0"
+  },
   "engines": {
     "node": ">= 10.0.0"
   },
   "files": [
-    "bin",
-    "index.js"
+    "dist/index.js"
   ],
+  "scripts": {
+    "build": "ncc build bin/create-midway.js -o dist"
+  },
   "publishConfig": {
     "access": "public"
   },
