@@ -12,4 +12,6 @@ if (argv._[0] === 'midway') {
   argv._ = argv._.slice(1);
 }
 const { cli } = require('./cli');
-cli(argv);
+cli(argv).catch(err => {
+  console.error(err);
+})
