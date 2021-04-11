@@ -11,13 +11,11 @@
     "bin"
   ],
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@midwayjs/cli-plugin-add": "^1.2.50",
     "@midwayjs/command-core": "^1.2.50",
+    "@vercel/ncc": "^0.28.0",
     "minimist": "^1.2.5"
-  },
-  "devDependencies": {
-    "@vercel/ncc": "^0.28.0"
   },
   "engines": {
     "node": ">= 10.0.0"
