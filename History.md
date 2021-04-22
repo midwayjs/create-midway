@@ -1,4 +1,11 @@
 
+1.1.7 / 2021-04-22
+==================
+
+  * Merge branch 'main' of github.com:midwayjs/create-midway into main
+  * Release 1.1.6
+  * Release 1.1.5
+
 1.1.5 / 2021-04-12
 ==================
 
