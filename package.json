@@ -15,7 +15,6 @@
     "@midwayjs/cli-plugin-add": "^1.2.50",
     "@midwayjs/command-core": "^1.2.50",
     "@vercel/ncc": "^0.28.0",
-    "cross-env": "^7.0.3",
     "minimist": "^1.2.5"
   },
   "engines": {
@@ -26,7 +25,7 @@
   ],
   "scripts": {
     "build": "ncc build bin/create-midway.js -o dist",
-    "test": "cross-env cd my_midway_app && cross-env npm run test"
+    "test": "npm run test"
   },
   "publishConfig": {
     "access": "public"
