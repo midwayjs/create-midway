@@ -20,7 +20,7 @@ jobs:
     - run: npm install
     - run: npm run build --if-present
     - run: node dist/index --type=web my_midway_app
-    - run: npm run test
+    - run: cd my_midway_app && npm run test
 
   build-windows:
       runs-on: windows-latest
@@ -38,4 +38,4 @@ jobs:
       - run: npm install
       - run: npm run build --if-present
       - run: node dist/index --type=web my_midway_app
-      - run: npm run test
+      - run: cd my_midway_app && npm run test
