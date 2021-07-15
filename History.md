@@ -1,4 +1,22 @@
 
+1.1.8 / 2021-05-02
+==================
+
+  * chore: update layer boilerpate
+  * chore: update
+  * chore: update
+  * chore: update
+  * chore: update
+  * Merge pull request #1 from midwayjs/add_windows_test
+  * chore: update
+
+1.1.7 / 2021-04-22
+==================
+
+  * Merge branch 'main' of github.com:midwayjs/create-midway into main
+  * Release 1.1.6
+  * Release 1.1.5
+
 1.1.5 / 2021-04-12
 ==================
 

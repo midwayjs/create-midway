@@ -1,6 +1,6 @@
 {
   "name": "create-midway",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "npm init midway",
   "main": "index.js",
   "bin": {
@@ -24,7 +24,8 @@
     "dist/index.js"
   ],
   "scripts": {
-    "build": "ncc build bin/create-midway.js -o dist"
+    "build": "ncc build bin/create-midway.js -o dist",
+    "test": "npm run test"
   },
   "publishConfig": {
     "access": "public"
