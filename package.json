@@ -2,9 +2,9 @@
   "name": "create-midway",
   "version": "1.1.19",
   "description": "npm init midway",
-  "main": "index.js",
+  "main": "dist/index.js",
   "bin": {
-    "create-midway": "dist/index.js"
+    "create-midway": "bin/create-midway.js"
   },
   "keywords": [
     "midway",
@@ -12,19 +12,24 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@midwayjs/cli-plugin-add": "^1.2.50",
-    "@midwayjs/command-core": "^1.2.50",
-    "@vercel/ncc": "^0.28.0",
-    "minimist": "^1.2.5"
+    "@midwayjs/boilerplate-list": "^1.0.0",
+    "chalk": "^4.1.0",
+    "enquirer": "^2.3.6",
+    "fs-extra": "^8.1.0",
+    "light-generator": "^1.6.1",
+    "light-spinner": "^1.0.1",
+    "minimist": "^1.2.5",
+    "@vercel/ncc": "^0.28.0"
   },
   "engines": {
     "node": ">= 10.0.0"
   },
   "files": [
+    "bin",
     "dist/index.js"
   ],
   "scripts": {
-    "build": "ncc build bin/create-midway.js -o dist",
+    "build": "ncc build lib/index.js -o dist",
     "test": "npm run test"
   },
   "publishConfig": {
