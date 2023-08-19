@@ -18,7 +18,6 @@
     "fs-extra": "^8.1.0",
     "light-generator": "^1.6.1",
     "light-spinner": "^1.0.1",
-    "minimist": "^1.2.5",
     "@vercel/ncc": "^0.28.0"
   },
   "engines": {
