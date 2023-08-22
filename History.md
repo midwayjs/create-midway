@@ -1,4 +1,13 @@
 
+1.2.2 / 2023-08-23
+==================
+
+  * chore: remove build
+  * chore: update version
+  * chore: update
+  * fix: under node 16
+  * fix: test
+
 1.2.1 / 2023-08-23
 ==================
 
