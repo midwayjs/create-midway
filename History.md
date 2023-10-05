@@ -1,4 +1,10 @@
 
+1.2.3 / 2023-10-05
+==================
+
+  * chore: upgrade boilerplate list to 1.0.24
+  * chore: update pkg
+
 1.2.2 / 2023-08-23
 ==================
 
