@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@midwayjs/boilerplate-list": "^1.0.0",
+    "@midwayjs/boilerplate-list": "^1.0.24",
     "chalk": "^4.1.0",
     "enquirer": "^2.3.6",
     "fs-extra": "^8.1.0",
