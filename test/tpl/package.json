@@ -1,0 +1,9 @@
+{
+  "name": "demo",
+  "boilerplateConfig": {
+    "root": ".",
+    "replaceFile": [
+      "test.js"
+    ]
+  }
+}
