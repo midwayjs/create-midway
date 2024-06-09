@@ -12,14 +12,14 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@midwayjs/boilerplate-list": "^1.0.24",
+    "@midwayjs/boilerplate-list": "^1.0.25",
+    "@vercel/ncc": "^0.28.0",
     "chalk": "^4.1.0",
     "enquirer": "^2.3.6",
     "fs-extra": "^8.1.0",
+    "jest": "29",
     "light-generator": "^1.6.1",
-    "light-spinner": "^1.0.1",
-    "@vercel/ncc": "^0.28.0",
-    "jest": "29"
+    "light-spinner": "^1.0.1"
   },
   "engines": {
     "node": ">= 10.0.0"
