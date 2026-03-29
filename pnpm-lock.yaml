@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@midwayjs/boilerplate-list':
-        specifier: ^1.0.26
-        version: 1.0.26
+        specifier: ^1.0.29
+        version: 1.0.29
       '@vercel/ncc':
         specifier: ^0.38.3
         version: 0.38.3
@@ -291,8 +291,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.29':
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
 
-  '@midwayjs/boilerplate-list@1.0.26':
-    resolution: {integrity: sha512-fwfJizEOVN1yt2jVzMeeFCp3H/9IznrvzYUbTDQEepKHRAwDOKZMMKKK7xHjsF8UAyfUoT+CEYNwWWs9YXByJw==}
+  '@midwayjs/boilerplate-list@1.0.29':
+    resolution: {integrity: sha512-Vtas6eCfaOnDroIsXA3GVGsAWIWMoxA2pbLs2sOF1krMhj5gJWXpXgsHrMM9YTd4w//Uj8+Ck4davIfjhmWBLw==}
 
   '@sinclair/typebox@0.27.8':
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
@@ -1559,7 +1559,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.4
 
-  '@midwayjs/boilerplate-list@1.0.26': {}
+  '@midwayjs/boilerplate-list@1.0.29': {}
 
   '@sinclair/typebox@0.27.8': {}
 
