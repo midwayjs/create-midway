@@ -9,13 +9,8 @@ importers:
   .:
     devDependencies:
       '@midwayjs/boilerplate-list':
-<<<<<<< HEAD
-        specifier: ^1.0.27
-        version: 1.0.27
-=======
-        specifier: ^1.0.29
-        version: 1.0.29
->>>>>>> 598b828 (Release 1.4.0)
+        specifier: ^1.0.30
+        version: 1.0.30
       '@vercel/ncc':
         specifier: ^0.38.4
         version: 0.38.4
@@ -295,13 +290,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-<<<<<<< HEAD
-  '@midwayjs/boilerplate-list@1.0.27':
-    resolution: {integrity: sha512-NcxvbaviFXdyUnQni5Pe5vWwFOCiVVWJrCOVHti1EcFH4tINg6MbbWiyejsFdi+AOOioaNv0WNpe30cbMsFC8g==}
-=======
-  '@midwayjs/boilerplate-list@1.0.29':
-    resolution: {integrity: sha512-Vtas6eCfaOnDroIsXA3GVGsAWIWMoxA2pbLs2sOF1krMhj5gJWXpXgsHrMM9YTd4w//Uj8+Ck4davIfjhmWBLw==}
->>>>>>> 598b828 (Release 1.4.0)
+  '@midwayjs/boilerplate-list@1.0.30':
+    resolution: {integrity: sha512-YxcOoBIIAir8MubQgrTg0ou42/PbiBdJn7a7gR80aaCBDGJt1pqzXJV5i4FSY6IWI4oxK92obe7CtjUdqLGjWQ==}
 
   '@sinclair/typebox@0.27.8':
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
@@ -1572,11 +1562,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-<<<<<<< HEAD
-  '@midwayjs/boilerplate-list@1.0.27': {}
-=======
-  '@midwayjs/boilerplate-list@1.0.29': {}
->>>>>>> 598b828 (Release 1.4.0)
+  '@midwayjs/boilerplate-list@1.0.30': {}
 
   '@sinclair/typebox@0.27.8': {}
 
