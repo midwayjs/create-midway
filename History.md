@@ -1,4 +1,15 @@
 
+1.4.1 / 2026-04-02
+==================
+
+  * chore: 更新版本号至1.4.1并升级@midwayjs/boilerplate-list依赖
+  * Release 1.4.0
+  * fix: windows
+  * fix: type
+  * chore: upgrade node version
+  * Release 1.3.3
+  * chore: add v4-esm template
+
 1.4.0 / 2026-03-29
 ==================
 
